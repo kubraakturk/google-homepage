@@ -1,0 +1,258 @@
+body , html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.header nav , .footer nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-menu,
+.left-menu {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.header-li {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.header-li a {
+  color: #5f6368;
+  text-decoration: none;
+  padding: 8px;
+  display: flex;
+  align-items: center; 
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.header-li a:hover {
+  text-decoration: underline;
+}
+
+.pic img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+  border-radius: 24px;
+}
+
+.search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  align-items: center;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  margin-right: 8px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: flex;
+  flex: 1;
+}
+
+.voice {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+  margin-top: 0
+}
+
+.voice-search-div {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+  line-height: 32px
+}
+
+.voice-search {
+  background: url('//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  vertical-align: middle
+}
+
+.input {
+  display: flex;
+  width: 480px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  font: 16px Arial, sans-serif;
+  line-height: 34px;
+  border: none;
+  outline: none;
+  text-align: start;
+  text-rendering: auto;
+  cursor: text;
+}
+
+.buttons {
+  font-family: arial, sans-serif;
+  background-color: #fff;
+  border: 0;
+  border-radius: 4px;
+  color: #5F6368;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 14px;
+  margin: 15px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+}
+
+.googlesearch,
+.feelinglucky {
+  margin: 10px 15px;
+  padding: 0 18px;
+  line-height: 27px;
+  border: 1px solid #f2f2f2;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.googlesearch:hover,
+.feelinglucky:hover {
+  background-color: #e8e8e8;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-left {
+  justify-content: flex-start;
+}
+
+.footer-right {
+  justify-content: flex-end;
+}
+
+.footer-li {
+  margin: 0 10px;
+}
+
+.footer-li a {
+  color: #5f6368;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-li a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  .search-area {
+    width: 90%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
